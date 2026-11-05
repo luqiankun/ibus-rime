@@ -1,0 +1,92 @@
+/* 云蓝 · macOS 风格的 Customize IBus 候选框
+ * 参考 openSUSE IBus Theme Hub 中的 Simple 和 Microsoft 主题。
+ * 不透明浅色面板、深蓝选中项及高对比编码文字。
+ */
+.candidate-popup-boxpointer {
+  -arrow-background-color: #ffffff;
+  -arrow-border-color: #b8c6d4;
+  -arrow-border-width: 1px;
+  -arrow-border-radius: 0.6em;
+  -arrow-base: 0px;
+  background: none;
+  border-image: none;
+}
+
+.candidate-popup-content {
+  color: #253344;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0.6em;
+  padding: 0.25em;
+}
+
+.candidate-popup-text {
+  color: #293b50;
+  padding: 0.15em 0.35em 0.25em 0.35em;
+  border-width: 0;
+}
+
+.candidate-box {
+  color: #253344;
+  border-radius: 0.35em;
+  padding: 0.25em 0.4em 0.25em 0.25em;
+}
+
+.candidate-box > .candidate-index {
+  color: #8193a6;
+  font-size: 0.8em;
+  min-width: 1em;
+  padding: 0.1em 0.25em 0 0.1em;
+  border-width: 0;
+}
+
+.candidate-box:hover {
+  color: #16324a;
+  background-color: #e1f1ff;
+}
+
+.candidate-box:selected {
+  color: #ffffff;
+  background-color: #0874d1;
+}
+
+.candidate-box:selected > .candidate-index {
+  color: #ffffff;
+}
+
+.candidate-page-button-box {
+  spacing: 0.2em;
+  border-color: #dbe7f1;
+}
+
+.vertical .candidate-page-button-box {
+  margin-top: 0.2em;
+  padding-top: 0.2em;
+  border-top-width: 1px;
+}
+
+.horizontal .candidate-page-button-box {
+  margin-left: 0.2em;
+  padding-left: 0.2em;
+  border-left-width: 1px;
+}
+
+.candidate-page-button {
+  color: #7590a8;
+  background-color: transparent;
+  border-radius: 0.3em;
+  padding: 0.2em;
+}
+
+.candidate-page-button StIcon {
+  icon-size: 1em;
+}
+
+.candidate-page-button:hover {
+  color: #1a79c6;
+  background-color: #e1f1ff;
+}
+
+.candidate-page-button:insensitive {
+  color: #c5d1db;
+}

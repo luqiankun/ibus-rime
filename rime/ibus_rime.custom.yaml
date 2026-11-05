@@ -1,0 +1,6 @@
+patch:
+  # 在应用光标处显示正在输入的编码，并让光标随编辑位置移动。
+  style/inline_preedit: true
+  style/preedit_style: composition
+  style/cursor_type: insert
+  style/horizontal: true

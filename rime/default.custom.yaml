@@ -1,0 +1,6 @@
+# 雾凇全拼和小鹤双拼；按 F4 或 Ctrl+` 切换。
+patch:
+  schema_list:
+    - schema: rime_ice
+    - schema: double_pinyin_flypy
+  menu/page_size: 7

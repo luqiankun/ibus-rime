@@ -1,0 +1,1271 @@
+# Rime user dictionary export
+#@/db_name	rime_ice
+#@/db_type	userdb
+#@/rime_version	1.16.1
+#@/tick	4811
+#@/user_id	unknown
+C	C	1
+D	D	2
+T	T	1
+U	U	33
+U弯	U wan	3
+啊	a	22
+按	an	13
+按键	an jian	1
+按钮	an niu	1
+安全	an quan	6
+暗色	an se	0
+暗色皮肤	an se pi fu	1
+安装	an zhuang	7
+吧	ba	19
+把	ba	11
+把测试	ba ce shi	1
+白啊赛啊	bai a sai a	1
+白白	bai bai	1
+摆出来	bai chu lai	1
+版本	ban ben	2
+办法	ban fa	2
+办公	ban gong	1
+半径	ban jing	5
+帮	bang	5
+保持	bao chi	2
+保存	bao cun	3
+包含	bao han	2
+保留	bao liu	3
+保证	bao zheng	1
+被	bei	4
+备份	bei fen	3
+背景	bei jing	1
+本地	ben di	1
+本机	ben ji	1
+本身	ben shen	2
+本文	ben wen	1
+比	bi	1
+比U	bi U	1
+比较	bi jiao	7
+比较长	bi jiao chang	1
+避免	bi mian	1
+必然	bi ran	3
+比如	bi ru	11
+必须	bi xu	2
+必要	bi yao	2
+避障	bi zhang	2
+边长	bian chang	1
+变更	bian geng	1
+变化	bian hua	4
+编辑	bian ji	1
+便捷	bian jie	1
+边界	bian jie	1
+变量	bian liang	1
+编码	bian ma	2
+编译	bian yi	4
+边缘	bian yuan	1
+标记	biao ji	5
+标准	biao zhun	4
+别的	bie de	1
+并	bing	11
+并且	bing qie	3
+并行	bing xing	1
+波动	bo dong	1
+不	bu	8
+补	bu	1
+不安	bu an	1
+不安全	bu an quan	3
+不保留	bu bao liu	1
+不崩	bu beng	1
+不必	bu bi	3
+步长	bu chang	1
+不成功	bu cheng gong	1
+补充	bu chong	2
+不多	bu duo	1
+不够	bu gou	2
+不管	bu guan	2
+不规则	bu gui ze	1
+不好	bu hao	5
+不好看	bu hao kan	1
+不合格	bu he ge	1
+不会	bu hui	5
+不假	bu jia	1
+布局	bu ju	2
+不可用	bu ke yong	1
+不连续	bu lian xu	1
+不能	bu neng	19
+不平滑	bu ping hua	1
+不迁移	bu qian yi	1
+不确定	bu que ding	1
+不是	bu shi	15
+不适	bu shi	3
+不是啊	bu shi a	1
+不是已经	bu shi yi jing	0
+部署	bu shu	1
+不太	bu tai	1
+不同	bu tong	3
+不通过	bu tong guo	1
+不稳定	bu wen ding	1
+不限制	bu xian zhi	1
+不想	bu xiang	1
+不行	bu xing	5
+不行的	bu xing de	1
+不需要	bu xu yao	2
+不要	bu yao	4
+不一定	bu yi ding	1
+不应该	bu ying gai	1
+不用	bu yong	8
+不用管	bu yong guan	1
+不在	bu zai	3
+不支持	bu zhi chi	1
+不知道	bu zhi dao	1
+才	cai	1
+才能	cai neng	1
+采用	cai yong	1
+参考	can kao	29
+参数	can shu	1
+仓库	cang ku	2
+操作	cao zuo	2
+测	ce	2
+测测	ce ce	4
+测试	ce shi	9
+测试结果表明	ce shi jie guo biao ming	1
+测完	ce wan	2
+测一组	ce yi zu	1
+层级	ceng ji	1
+差别	cha bie	1
+差不多	cha bu duo	1
+查看	cha kan	1
+场	chang	3
+长	chang	3
+长度	chang du	6
+场景	chang jing	14
+尝试	chang shi	2
+常用	chang yong	3
+常用命令	chang yong ming ling	1
+超	chao	1
+超出	chao chu	2
+超过	chao guo	2
+超时	chao shi	3
+超调	chao tiao	1
+超限	chao xian	2
+朝向	chao xiang	2
+车	che	1
+车库	che ku	1
+车辆	che liang	10
+车辆位置	che liang wei zhi	1
+车体	che ti	2
+成	cheng	6
+成功	cheng gong	5
+成功率	cheng gong lv	1
+程序	cheng xu	1
+持续	chi xu	3
+充电桩	chong dian zhuang	1
+重定位	chong ding wei	3
+重复	chong fu	1
+重构	chong gou	2
+重合	chong he	1
+重启	chong qi	1
+重新	chong xin	6
+出	chu	4
+初次	chu ci	1
+触点	chu dian	1
+出发	chu fa	2
+出口	chu kou	1
+出来	chu lai	3
+除了	chu le	1
+处理	chu li	16
+出现	chu xian	12
+处在	chu zai	1
+穿插	chuan cha	1
+传感器	chuan gan qi	1
+窗口	chuang kou	4
+次	ci	1
+词库	ci ku	3
+此时	ci shi	2
+从	cong	6
+从而	cong er	2
+存在	cun zai	1
+错误	cuo wu	2
+大	da	6
+打	da	3
+大部分	da bu fen	2
+大大	da da	1
+嗒嗒声	da da sheng	1
+大范围	da fan wei	1
+大概	da gai	2
+大纲	da gang	1
+大家	da jia	1
+搭建	da jian	2
+大角度	da jiao du	2
+大赛	da sai	2
+大赛啊	da sai a	1
+大赛啊赛啊	da sai a sai a	1
+大师	da shi	1
+大小	da xiao	3
+大于	da yu	1
+大致	da zhi	2
+带	dai	3
+带啊赛啊	dai a sai a	1
+代价	dai jia	1
+代码	dai ma	19
+但	dan	23
+单单是	dan dan shi	1
+单点	dan dian	1
+单独	dan du	2
+但是	dan shi	5
+但也要	dan ye yao	1
+当	dang	1
+当大佬	dang da lao	1
+当前	dang qian	40
+当时	dang shi	1
+到	dao	22
+到达	dao da	1
+导航	dao hang	18
+导致	dao zhi	7
+的	de	257
+得到	de dao	1
+等	deng	5
+等下	deng xia	1
+等于	deng yu	2
+底部	di bu	2
+第二	di er	1
+地方	di fang	3
+低很多	di hen duo	1
+低速	di su	1
+地图	di tu	17
+地团	di tuan	1
+第一个	di yi ge	1
+第一项	di yi xiang	1
+点	dian	8
+点击	dian ji	1
+点开	dian kai	1
+点云	dian yun	1
+定位	ding wei	3
+东西	dong xi	4
+都	dou	5
+都不	dou bu	1
+抖动	dou dong	2
+都能	dou neng	1
+都是	dou shi	1
+都有	dou you	1
+度	du	1
+度过	du guo	1
+段	duan	1
+短	duan	1
+段步长	duan bu chang	1
+短路径	duan lu jing	1
+对	dui	2
+对称	dui chen	1
+对话	dui hua	2
+对应	dui ying	4
+多	duo	2
+多大	duo da	2
+多个	duo ge	1
+多久	duo jiu	2
+多少	duo shao	4
+多远	duo yuan	1
+饿	e	0
+饿大赛将	e da sai jiang	1
+额度	e du	1
+扼杀	e sha	1
+额外	e wai	2
+而	er	1
+二次	er ci	1
+而且	er qie	2
+而是	er shi	1
+法	fa	1
+发布	fa bu	0
+发挥	fa hui	1
+发生	fa sheng	2
+发现	fa xian	3
+反差	fan cha	1
+反而	fan er	1
+反而不行	fan er bu xing	1
+反复	fan fu	2
+范围	fan wei	7
+反向	fan xiang	2
+翻页	fan ye	1
+反正	fan zheng	1
+放	fang	1
+方案	fang an	7
+方便	fang bian	1
+放大	fang da	2
+放到	fang dao	2
+方法	fang fa	1
+方式	fang shi	1
+方向	fang xiang	3
+仿真	fang zhen	11
+防止	fang zhi	1
+非常	fei chang	1
+分别	fen bie	1
+分成	fen cheng	1
+分区	fen qu	1
+分析	fen xi	8
+分支	fen zhi	1
+否能	fou neng	1
+否则	fou ze	3
+复查	fu cha	1
+覆盖	fu gai	10
+符合	fu he	1
+附近	fu jin	4
+服务	fu wu	1
+复现	fu xian	3
+复用	fu yong	4
+复杂	fu za	3
+复制	fu zhi	1
+该	gai	3
+改动	gai dong	1
+改为	gai wei	3
+感觉	gan jue	2
+干嘛	gan ma	2
+感知	gan zhi	4
+刚刚	gang gang	2
+高级	gao ji	1
+个	ge	9
+格式化	ge shi hua	1
+各种	ge zhong	1
+给	gei	1
+根本	gen ben	2
+根据	gen ju	3
+跟随	gen sui	2
+跟踪	gen zong	1
+更改	geng gai	1
+更小	geng xiao	1
+更新	geng xin	2
+功	gong	1
+工程	gong cheng	2
+公共	gong gong	1
+功能	gong neng	3
+工作	gong zuo	3
+够	gou	1
+构建	gou jian	1
+固定	gu ding	2
+顾及	gu ji	1
+拐弯	guai wan	1
+管	guan	4
+关闭	guan bi	2
+关键	guan jian	3
+管理	guan li	4
+关系	guan xi	1
+关心	guan xin	1
+关注度	guan zhu du	1
+规划	gui hua	69
+规划算法	gui hua suan fa	1
+轨迹	gui ji	4
+滚动	gun dong	6
+滚动条	gun dong tiao	1
+过	guo	11
+过不了	guo bu liao	1
+国产软件	guo chan ruan jian	1
+过程	guo cheng	1
+过去	guo qu	1
+还	hai	4
+还大	hai da	1
+还多	hai duo	1
+还好	hai hao	1
+还能	hai neng	1
+还是	hai shi	24
+还是要	hai shi yao	1
+还要	hai yao	1
+还用	hai yong	1
+还有	hai you	14
+还有哪些	hai you na xie	1
+还在	hai zai	2
+还在更新	hai zai geng xin	0
+还在更新吗	hai zai geng xin ma	1
+函数	han shu	4
+好	hao	25
+好的	hao de	3
+好好	hao hao	2
+好看	hao kan	2
+好了	hao le	2
+耗时	hao shi	2
+好像	hao xiang	3
+和	he	39
+合并	he bing	2
+合格	he ge	2
+合适	he shi	1
+和以前	he yi qian	1
+很长	hen chang	2
+很大	hen da	2
+很多	hen duo	2
+很快	hen kuai	2
+很远	hen yuan	2
+后	hou	20
+后端	hou duan	6
+后面	hou mian	4
+后世	hou shi	1
+后续	hou xu	4
+候选	hou xuan	8
+候选饿	hou xuan e	1
+后轴	hou zhou	1
+互	hu	1
+互补	hu bu	0
+互补信息	hu bu xin xi	1
+糊糊	hu hu	1
+话	hua	3
+画出	hua chu	2
+画出来	hua chu lai	2
+画的	hua de	1
+滑动	hua dong	1
+滑动窗口	hua dong chuang kou	8
+画个	hua ge	1
+画图	hua tu	1
+画线	hua xian	1
+缓存	huan cun	3
+环境	huan jing	3
+会	hui	18
+回	hui	4
+回答	hui da	2
+回归	hui gui	20
+回环	hui huan	3
+回退	hui tui	6
+回退到	hui tui dao	1
+绘制	hui zhi	1
+回桩	hui zhuang	1
+或	huo	11
+或者	huo zhe	1
+即	ji	2
+记	ji	1
+基本	ji ben	1
+即崩	ji beng	1
+基础	ji chu	1
+记得	ji de	1
+极端	ji duan	1
+几个	ji ge	4
+激光	ji guang	1
+几何	ji he	19
+计划	ji hua	1
+即可	ji ke	1
+记录	ji lu	2
+机器人	ji qi ren	2
+既然	ji ran	2
+计算	ji suan	9
+基线	ji xian	3
+继续	ji xu	11
+继续用	ji xu yong	1
+记一下	ji yi xia	1
+既有	ji you	1
+基于	ji yu	3
+基于当前	ji yu dang qian	1
+急着	ji zhe	1
+基准	ji zhun	1
+加	jia	5
+夹	jia	1
+加成	jia cheng	1
+假定	jia ding	1
+架构	jia gou	1
+加入	jia ru	1
+假设	jia she	1
+加速	jia su	1
+加一个	jia yi ge	1
+检测	jian ce	31
+检查	jian cha	3
+简单	jian dan	2
+简单明了	jian dan ming liao	1
+尖锋	jian feng	2
+简洁明了	jian jie ming liao	1
+建立	jian li	4
+键盘	jian pan	1
+减速	jian su	5
+建图	jian tu	1
+将	jiang	1
+将将	jiang jiang	1
+讲讲	jiang jiang	1
+讲解	jiang jie	2
+脚本	jiao ben	2
+交叉	jiao cha	1
+教程	jiao cheng	5
+焦点	jiao dian	1
+角度	jiao du	13
+解	jie	3
+解读	jie du	2
+结构	jie gou	1
+结果	jie guo	2
+结合	jie he	2
+借鉴	jie jian	1
+解决	jie jue	6
+接口	jie kou	1
+结论	jie lun	1
+界面	jie mian	1
+截取	jie qu	17
+接入	jie ru	12
+解释	jie shi	3
+结束	jie shu	1
+阶梯	jie ti	1
+界限	jie xian	1
+近的	jin de	0
+近的时候	jin de shi hou	1
+进度	jin du	1
+仅仅	jin jin	1
+尽量	jin liang	5
+进入	jin ru	10
+禁行	jin xing	1
+进行	jin xing	6
+进行曲	jin xing qu	1
+进一步	jin yi bu	1
+经常	jing chang	1
+经典	jing dian	1
+静态	jing tai	2
+就	jiu	14
+旧	jiu	8
+纠错	jiu cuo	1
+就开始	jiu kai shi	1
+旧路径	jiu lu jing	2
+就能	jiu neng	1
+就是	jiu shi	8
+就算	jiu suan	1
+就行	jiu xing	1
+就用	jiu yong	3
+就这样吧	jiu zhe yang ba	1
+举	ju	1
+局部	ju bu	29
+局部高	ju bu gao	1
+局部规划	ju bu gui hua	19
+局部路径	ju bu lu jing	3
+举例	ju li	0
+距离	ju li	9
+距离屏幕	ju li ping mu	1
+举例一些	ju li yi xie	1
+居然	ju ran	1
+矩阵	ju zhen	2
+绝对	jue dui	1
+均	jun	1
+均摊	jun tan	1
+卡住	ka zhu	1
+开	kai	1
+开机	kai ji	1
+开启	kai qi	2
+开始	kai shi	4
+看	kan	3
+看不到	kan bu dao	1
+看出	kan chu	1
+看到	kan dao	2
+看见	kan jian	2
+看看	kan kan	34
+看来	kan lai	1
+看其	kan qi	1
+看起来	kan qi lai	1
+看着	kan zhe	1
+靠近	kao jin	1
+考虑	kao lv	5
+靠下	kao xia	1
+可能	ke neng	24
+可能性	ke neng xing	1
+可行	ke xing	7
+可以	ke yi	20
+可以接	ke yi jie	0
+可以接入	ke yi jie ru	1
+可以吗	ke yi ma	1
+可用	ke yong	3
+肯定	ken ding	2
+空	kong	1
+空间	kong jian	4
+空旷	kong kuang	1
+空闲	kong xian	1
+控制	kong zhi	4
+库	ku	1
+快	kuai	1
+快快快	kuai kuai kuai	0
+快快快快快快	kuai kuai kuai kuai kuai kuai	0
+快快快快快快快快快	kuai kuai kuai kuai kuai kuai kuai kuai kuai	1
+快速	kuai su	3
+宽	kuan	2
+宽大	kuan da	1
+宽度	kuan du	3
+框架	kuang jia	1
+垃圾	la ji	1
+拉取	la qu	2
+来	lai	28
+蓝色	lan se	2
+老项目	lao xiang mu	1
+了	le	64
+雷达	lei da	2
+累计	lei ji	1
+类似	lei si	3
+力	li	1
+离	li	1
+里	li	7
+立即	li ji	4
+立刻	li ke	3
+理论上	li lun shang	1
+离散	li san	2
+离线	li xian	1
+离障碍	li zhang ai	1
+例子	li zi	1
+连接	lian jie	1
+连续	lian xu	1
+两次	liang ci	1
+两个	liang ge	4
+两类	liang lei	2
+两米	liang mi	2
+两种	liang zhong	2
+临时	lin shi	1
+零	ling	1
+另外	ling wai	6
+流程	liu cheng	1
+留到	liu dao	1
+路	lu	1
+路段	lu duan	1
+路径	lu jing	86
+路径吗	lu jing ma	1
+路径上	lu jing shang	1
+路上	lu shang	1
+乱	luan	2
+乱走	luan zou	1
+轮廓	lun kuo	1
+逻辑	luo ji	3
+落实	luo shi	3
+掠	lve	2
+吗	ma	46
+骂	ma	1
+慢	man	3
+满足	man zu	5
+么次	me ci	1
+没	mei	4
+每次	mei ci	6
+每个	mei ge	1
+没人	mei ren	0
+没人用了	mei ren yong le	1
+没什么	mei shen me	2
+没有	mei you	10
+没有遮挡	mei you zhe dang	1
+们	men	1
+门槛	men kan	2
+米	mi	9
+米内	mi nei	1
+面	mian	3
+明白	ming bai	1
+明了	ming liao	1
+命令	ming ling	1
+明明	ming ming	2
+模块	mo kuai	5
+模拟	mo ni	3
+默认	mo ren	2
+模式	mo shi	0
+模式啊	mo shi a	1
+模型	mo xing	3
+某个	mou ge	2
+某种	mou zhong	1
+目标	mu biao	3
+目录	mu lu	2
+目前	mu qian	10
+那	na	16
+那个	na ge	1
+哪里	na li	2
+那里	na li	1
+哪里疼	na li teng	1
+哪怕	na pa	1
+哪些	na xie	1
+那样	na yang	1
+那种	na zhong	1
+呢	ne	16
+内	nei	6
+内存	nei cun	1
+内容	nei rong	2
+能	neng	29
+能不能	neng bu neng	12
+能否	neng fou	8
+能够	neng gou	3
+能过	neng guo	3
+能走	neng zou	2
+你	ni	16
+逆	ni	1
+你把	ni ba	1
+你的	ni de	2
+拟合	ni he	1
+你看看	ni kan kan	2
+你能	ni neng	2
+你说	ni shuo	2
+你先说	ni xian shuo	0
+你先说说	ni xian shuo shuo	1
+你现在	ni xian zai	1
+你有	ni you	1
+你怎么	ni zen me	1
+年初	nian chu	1
+弄	nong	2
+排查	pai cha	3
+排除	pai chu	2
+排序	pai xu	1
+判断	pan duan	18
+旁鬼	pang gui	1
+跑	pao	1
+配置	pei zhi	5
+配置文件	pei zhi wen jian	1
+碰撞	peng zhuang	6
+批处理	pi chu li	1
+皮肤	pi fu	10
+偏差	pian cha	1
+偏离	pian li	9
+偏向	pian xiang	1
+偏移	pian yi	2
+拼	pin	1
+频率	pin lv	1
+评分	ping fen	7
+评估	ping gu	6
+评估下	ping gu xia	1
+平滑	ping hua	15
+平缓	ping huan	1
+评价	ping jia	3
+屏幕	ping mu	0
+平时	ping shi	2
+普通	pu tong	5
+器	qi	3
+起	qi	1
+起步	qi bu	3
+岂不是	qi bu shi	1
+其次	qi ci	1
+启动	qi dong	1
+起来	qi lai	1
+其他	qi ta	5
+弃用	qi yong	1
+前	qian	4
+前部分	qian bu fen	1
+前端	qian duan	2
+前方	qian fang	1
+前后	qian hou	1
+前进	qian jin	2
+前轮	qian lun	2
+前面	qian mian	4
+嵌入	qian ru	0
+墙	qiang	4
+墙里	qiang li	2
+且	qie	6
+切换	qie huan	3
+清洁	qing jie	4
+清洁区域	qing jie qu yu	1
+情况	qing kuang	16
+清理	qing li	3
+轻微	qing wei	1
+倾向	qing xiang	1
+穷	qiong	1
+区	qu	1
+去	qu	1
+区别	qu bie	2
+去掉	qu diao	2
+区间	qu jian	3
+曲率	qu lv	7
+曲线	qu xian	6
+区域	qu yu	1
+全	quan	2
+全部	quan bu	1
+全局	quan ju	22
+全链条	quan lian tiao	1
+全量	quan liang	1
+全拼	quan pin	2
+权重	quan zhong	1
+却	que	2
+确定	que ding	1
+确认	que ren	3
+确实	que shi	1
+然后	ran hou	12
+让	rang	2
+绕	rao	2
+绕过	rao guo	1
+绕圈	rao quan	1
+绕障	rao zhang	2
+绕障碍	rao zhang ai	1
+人	ren	1
+认为	ren wei	1
+任务	ren wu	2
+任意	ren yi	1
+容差	rong cha	1
+容器	rong qi	1
+容易	rong yi	6
+入	ru	0
+如此	ru ci	1
+如歌	ru ge	1
+如果	ru guo	23
+如何	ru he	24
+入口	ru kou	2
+赛	sai	0
+三个	san ge	1
+扫	sao	1
+扫过	sao guo	1
+色	se	2
+啥	sha	3
+啥的	sha de	1
+筛	shai	1
+筛选	shai xuan	1
+删除	shan chu	1
+山歌	shan ge	1
+栅格	shan ge	3
+上	shang	7
+上次	shang ci	2
+上面	shang mian	4
+上面的	shang mian de	1
+上午	shang wu	1
+上下	shang xia	1
+上移	shang yi	0
+上移或下移	shang yi huo xia yi	1
+上游	shang you	2
+少	shao	1
+稍微	shao wei	1
+设计	she ji	9
+设计一个	she ji yi ge	1
+设计一下	she ji yi xia	1
+设置	she zhi	5
+深度	shen du	1
+肾结石	shen jie shi	1
+什么	shen me	20
+什么样子的	shen me yang zi de	1
+什么状态	shen me zhuang tai	1
+甚至	shen zhi	1
+生产	sheng chan	2
+生成	sheng cheng	2
+生效	sheng xiao	1
+剩余	sheng yu	1
+时	shi	33
+是	shi	68
+是吧	shi ba	5
+失败	shi bai	7
+识别	shi bie	11
+是不是	shi bu shi	6
+是不是已经	shi bu shi yi jing	1
+时代	shi dai	1
+是的	shi de	1
+是否	shi fou	10
+适合	shi he	4
+时候	shi hou	1
+实际	shi ji	8
+时机	shi ji	2
+实际路径	shi ji lu jing	1
+时间	shi jian	2
+世界	shi jie	1
+视觉	shi jue	1
+时刻	shi ke	1
+是吗	shi ma	1
+市面上	shi mian shang	1
+适配	shi pei	2
+是什么意思啊	shi shen me yi si a	1
+实施	shi shi	1
+实时	shi shi	2
+实现	shi xian	11
+是一个	shi yi ge	1
+示意图	shi yi tu	1
+市盈率	shi ying lv	2
+使用	shi yong	7
+是怎么	shi zen me	1
+手动	shou dong	3
+手绘	shou hui	4
+首先	shou xian	1
+输出	shu chu	4
+舒尔	shu er	1
+舒尔补	shu er bu	1
+数据	shu ju	1
+数据库	shu ju ku	1
+梳理	shu li	1
+梳理一下	shu li yi xia	1
+输入	shu ru	7
+输入法	shu ru fa	1
+输入焦点	shu ru jiao dian	1
+双拼	shuang pin	1
+顺序	shun xu	1
+说	shuo	3
+说白	shuo bai	1
+说白了	shuo bai le	1
+说别	shuo bie	1
+说明	shuo ming	2
+说说	shuo shuo	4
+说一个	shuo yi ge	1
+说重点	shuo zhong dian	1
+思路	si lu	12
+似有似无	si you si wu	1
+搜搜	sou sou	3
+搜索	sou suo	15
+速度	su du	18
+算	suan	6
+算法	suan fa	7
+算发布	suan fa bu	1
+算法库	suan fa ku	1
+算了	suan le	3
+虽然	sui ran	2
+所以	suo yi	4
+索引	suo yin	1
+所有	suo you	1
+它	ta	0
+它支持	ta zhi chi	1
+太	tai	3
+太大	tai da	1
+太短	tai duan	1
+太急	tai ji	1
+太浅	tai qian	1
+讨论	tao lun	3
+特别	te bie	1
+特殊	te shu	12
+特诉	te su	1
+特性	te xing	1
+题	ti	1
+剔除	ti chu	1
+替换	ti huan	2
+提交	ti jiao	2
+提前	ti qian	8
+提取	ti qu	3
+体验	ti yan	1
+添加	tian jia	4
+天蓝色	tian lan se	1
+调	tiao	2
+跳	tiao	3
+条件	tiao jian	1
+调频	tiao pin	1
+调试	tiao shi	1
+调整	tiao zheng	2
+贴合	tie he	1
+贴近	tie jin	1
+停车	ting che	4
+停下	ting xia	2
+停下来	ting xia lai	1
+通	tong	1
+通过	tong guo	10
+统计	tong ji	1
+统计下	tong ji xia	1
+同时	tong shi	2
+同行	tong xing	1
+通行	tong xing	1
+同样	tong yang	1
+透明	tou ming	1
+投影	tou ying	0
+投影点	tou ying dian	1
+图	tu	2
+突出	tu chu	1
+图像	tu xiang	1
+图中	tu zhong	1
+推迟	tui chi	1
+推荐	tui jian	4
+推进	tui jin	3
+推理	tui li	1
+托管	tuo guan	3
+脱离	tuo li	1
+拓展	tuo zhan	1
+外设	wai she	1
+完	wan	1
+弯	wan	46
+晚	wan	2
+完成	wan cheng	1
+完全	wan quan	2
+完整	wan zheng	3
+为	wei	11
+为何	wei he	29
+为了	wei le	3
+为例	wei li	1
+为什么	wei shen me	1
+位置	wei zhi	8
+文本	wen ben	1
+文档	wen dang	1
+稳定	wen ding	2
+问个问题	wen ge wen ti	1
+文件	wen jian	6
+稳态误差	wen tai wu cha	1
+问题	wen ti	24
+我	wo	19
+我的	wo de	2
+我看	wo kan	1
+我们	wo men	3
+我想	wo xiang	2
+我想到	wo xiang dao	1
+我直接	wo zhi jie	1
+无	wu	3
+误差	wu cha	3
+无法	wu fa	6
+物理	wu li	1
+无脑	wu nao	2
+雾凇拼音	wu song pin yin	3
+无所顾忌	wu suo gu ji	1
+无用	wu yong	1
+无障碍	wu zhang ai	8
+系	xi	3
+细节	xi jie	2
+系统	xi tong	2
+下	xia	18
+下次	xia ci	1
+下移	xia yi	0
+下一步	xia yi bu	5
+下载	xia zai	1
+先	xian	42
+现场	xian chang	1
+线程	xian cheng	1
+先检测	xian jian ce	1
+显示	xian shi	8
+显示正常	xian shi zheng chang	1
+现象	xian xiang	1
+现在	xian zai	24
+限制	xian zhi	4
+向	xiang	2
+想	xiang	6
+相差	xiang cha	1
+相当于	xiang dang yu	1
+相关	xiang guan	6
+相机	xiang ji	3
+想了想	xiang le xiang	1
+详细	xiang xi	3
+详细说说	xiang xi shuo shuo	1
+想用	xiang yong	1
+小	xiao	1
+效果	xiao guo	2
+小于	xiao yu	1
+些	xie	2
+写	xie	4
+写到	xie dao	1
+新	xin	4
+新建	xin jian	1
+新旧	xin jiu	1
+信息	xin xi	3
+行	xing	1
+行了	xing le	2
+性能	xing neng	1
+形式	xing shi	1
+行使	xing shi	2
+行驶	xing shi	3
+修复	xiu fu	3
+修改	xiu gai	6
+需要	xu yao	13
+选择	xuan ze	1
+选中	xuan zhong	1
+学	xue	1
+循环	xun huan	1
+眼	yan	1
+颜色	yan se	1
+演示	yan shi	2
+沿着	yan zhe	4
+验证	yan zheng	2
+样	yang	2
+样本	yang ben	1
+要	yao	18
+要求	yao qiu	3
+也	ye	18
+也会	ye hui	1
+也就是	ye jiu shi	3
+也就是说	ye jiu shi shuo	1
+也可能	ye ke neng	0
+也可能是	ye ke neng shi	1
+也能	ye neng	1
+也是	ye shi	1
+也要	ye yao	2
+一	yi	2
+以	yi	5
+一般	yi ban	5
+一部分	yi bu fen	1
+异常	yi chang	1
+移除	yi chu	1
+一次	yi ci	6
+一旦	yi dan	2
+以当前	yi dang qian	3
+一点	yi dian	1
+一点点	yi dian dian	1
+一定	yi ding	5
+移动	yi dong	1
+移动到	yi dong dao	1
+一段	yi duan	2
+一发现	yi fa xian	1
+一个	yi ge	39
+一根	yi gen	0
+一根饿	yi gen e	1
+一行	yi hang	1
+以后	yi hou	2
+以及	yi ji	13
+已经	yi jing	10
+依靠	yi kao	1
+依赖	yi lai	3
+一起	yi qi	2
+意思	yi si	1
+一条	yi tiao	2
+一同	yi tong	1
+一下	yi xia	21
+以现在	yi xian zai	1
+一小段	yi xiao duan	1
+一些	yi xie	3
+一眼	yi yan	1
+一样	yi yang	4
+以一个	yi yi ge	1
+一直	yi zhi	6
+移植	yi zhi	2
+一种	yi zhong	3
+一组	yi zu	1
+因	yin	2
+因为	yin wei	4
+引用	yin yong	1
+应该	ying gai	24
+硬盘	ying pan	2
+英文	ying wen	1
+影响	ying xiang	3
+应用	ying yong	1
+影之刃	ying zhi ren	1
+用	yong	26
+用到	yong dao	2
+用法	yong fa	1
+用户	yong hu	1
+用来	yong lai	1
+用了	yong le	0
+用例	yong li	1
+用时	yong shi	1
+优	you	1
+又	you	7
+有	you	39
+由	you	1
+又必须	you bi xu	1
+右边	you bian	1
+有点	you dian	1
+有个	you ge	1
+有个地方	you ge di fang	1
+有关	you guan	1
+优化	you hua	6
+有了	you le	2
+有类似	you lei si	1
+尤其	you qi	5
+有无	you wu	3
+有误	you wu	1
+有效	you xiao	1
+由易到难	you yi dao nan	1
+有一个	you yi ge	1
+有意思	you yi si	1
+又有	you you	1
+由于	you yu	2
+有障碍	you zhang ai	1
+又中断	you zhong duan	1
+于	yu	1
+预测	yu ce	2
+预处理	yu chu li	15
+遇到	yu dao	1
+愈发	yu fa	1
+语法	yu fa	1
+阈值	yu zhi	6
+远	yuan	2
+圆弧	yuan hu	1
+原理	yuan li	1
+原生	yuan sheng	1
+原始	yuan shi	3
+圆心	yuan xin	1
+原因	yuan yin	2
+原有	yuan you	1
+越过	yue guo	1
+越来越短	yue lai yue duan	1
+约束	yue shu	3
+云端	yun duan	1
+运算	yun suan	1
+运行	yun xing	6
+运行脚本	yun xing jiao ben	1
+允许	yun xu	3
+再	zai	12
+在	zai	26
+再次	zai ci	1
+在哪里	zai na li	2
+在前进	zai qian jin	1
+再说	zai shuo	1
+在线	zai xian	1
+暂时	zan shi	2
+造成	zao cheng	1
+则	ze	3
+怎	zen	1
+怎么	zen me	6
+怎样	zen yang	2
+占据	zhan ju	1
+展示	zhan shi	1
+占用	zhan yong	2
+障碍	zhang ai	16
+找到	zhao dao	1
+找一个	zhao yi ge	1
+折	zhe	2
+这	zhe	2
+这处	zhe chu	1
+这次	zhe ci	8
+遮挡	zhe dang	1
+这份	zhe fen	1
+这个	zhe ge	31
+这类	zhe lei	1
+这里	zhe li	1
+这么	zhe me	4
+这是	zhe shi	1
+这样	zhe yang	23
+这种	zhe zhong	6
+遮住	zhe zhu	1
+真	zhen	0
+针对	zhen dui	1
+针对性	zhen dui xing	1
+真正	zhen zheng	3
+真整理	zhen zheng li	1
+证	zheng	1
+正常	zheng chang	6
+正常通过	zheng chang tong guo	1
+正反	zheng fan	1
+整个	zheng ge	1
+整理	zheng li	1
+正面	zheng mian	1
+正确	zheng que	1
+正式化	zheng shi hua	1
+整套	zheng tao	1
+整体	zheng ti	1
+只	zhi	6
+只比	zhi bi	1
+支持	zhi chi	4
+只处理	zhi chu li	1
+直到	zhi dao	2
+知道	zhi dao	1
+知道了	zhi dao le	1
+只改	zhi gai	1
+只管	zhi guan	1
+滞回	zhi hui	1
+之间	zhi jian	2
+直角	zhi jiao	1
+直接	zhi jie	30
+直接判断	zhi jie pan duan	1
+直接嵌入	zhi jie qian ru	1
+直接用	zhi jie yong	1
+只看	zhi kan	1
+只能	zhi neng	1
+之前	zhi qian	11
+只是	zhi shi	1
+直线	zhi xian	4
+执行	zhi xing	14
+只要	zhi yao	5
+只用	zhi yong	2
+只用于	zhi yong yu	1
+只有	zhi you	2
+直至	zhi zhi	1
+只做	zhi zuo	1
+中	zhong	21
+终点	zhong dian	8
+重点	zhong dian	5
+中断	zhong duan	5
+中心	zhong xin	1
+周期	zhou qi	2
+逐步	zhu bu	2
+逐条	zhu tiao	1
+主要	zhu yao	2
+注意	zhu yi	2
+转动	zhuan dong	1
+转角	zhuan jiao	1
+专门	zhuan men	1
+转弯	zhuan wan	5
+转向	zhuan xiang	1
+状态	zhuang tai	6
+准备	zhun bei	2
+桌	zhuo	1
+桌面	zhuo mian	1
+自动	zi dong	22
+自己	zi ji	3
+自交	zi jiao	1
+字母	zi mu	2
+字体	zi ti	1
+自研	zi yan	1
+自由	zi you	2
+总是	zong shi	3
+总体	zong ti	3
+总之	zong zhi	1
+走	zou	4
+走出	zou chu	2
+走过	zou guo	1
+最大	zui da	4
+最好用	zui hao yong	1
+最后	zui hou	3
+最近	zui jin	2
+最可能	zui ke neng	1
+最上层	zui shang ceng	1
+最小	zui xiao	5
+最新	zui xin	1
+最优	zui you	1
+最终	zui zhong	1
+做	zuo	14
+做不到	zuo bu dao	1
+做到	zuo dao	2
+做了	zuo le	1
+左图	zuo tu	1
+做一个	zuo yi ge	2
+作用	zuo yong	1
+左右	zuo you	2
