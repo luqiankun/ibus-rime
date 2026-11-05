@@ -16,7 +16,7 @@
 在 Ubuntu / Debian 的 GNOME 桌面会话中克隆此仓库并运行：
 
 ```bash
-git clone git@github.com:luqiankun/ibus-rime.git
+git clone https://github.com/luqiankun/ibus-rime.git
 cd ibus-rime
 ./install.sh
 ```
