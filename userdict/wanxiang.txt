@@ -1,0 +1,297 @@
+# Rime user dictionary export
+#@/db_name	wanxiang
+#@/db_type	userdb
+#@/rime_version	1.16.1
+#@/tick	455
+#@/user_id	f43e72c6-5696-4919-b437-9e5caf9155b4
+啊	a	2
+吧	ba	3
+编译	biān yì	1
+编纂	biān zuǎn	1
+白色	bái sè	1
+背景	bèi jǐng	2
+必须	bì xū	1
+不出	bù chū	1
+不能	bù néng	1
+不生效	bù shēng xiào	1
+不行	bù xíng	1
+不足	bù zú	1
+不是	bú shì	2
+不要	bú yào	1
+不用	bú yòng	1
+不做	bú zuò	1
+帮我	bāng wǒ	1
+本书	běn shū	0
+本书的	běn shū de	1
+把	bǎ	1
+把它	bǎ tā	1
+把我	bǎ wǒ	1
+保留	bǎo liú	1
+比如	bǐ rú	1
+欻下	chuā xià	1
+尝试	cháng shì	1
+成	chéng	1
+重新	chóng xīn	1
+出	chū	2
+出厂设置	chū chǎng shè zhì	1
+出现	chū xiàn	0
+才能	cái néng	1
+层级	céng jí	1
+彩色	cǎi sè	0
+彩色前景	cǎi sè qián jǐng	1
+的	de	21
+电子书	diàn zǐ shū	1
+掉	diào	1
+调	diào	1
+点	diǎn	4
+对角线	duì jiǎo xiàn	1
+第六篇	dì liù piān	1
+第十章	dì shí zhāng	1
+第三	dì sān	1
+第一次	dì yī cì	0
+第一次使用鼠标	dì yī cì shǐ yòng shǔ biāo	1
+动	dòng	1
+当前	dāng qián	4
+当前排版	dāng qián pái bǎn	1
+灯光	dēng guāng	1
+等	děng	1
+等过	děng guò	1
+东西	dōng xi	3
+打	dǎ	1
+导数	dǎo shù	1
+分析	fēn xī	1
+封敖	fēng áo	0
+仿真	fǎng zhēn	1
+过程	guò chéng	1
+关闭	guān bì	1
+规划	guī huà	0
+规则	guī zé	1
+干嘛	gàn má	1
+刚刚	gāng gāng	1
+跟	gēn	1
+工程中	gōng chéng zhōng	1
+工作	gōng zuò	1
+改为	gǎi wéi	1
+滚动	gǔn dòng	3
+滚轮	gǔn lún	3
+回复	huí fù	1
+回来	huí lái	1
+或	huò	3
+恢复	huī fù	2
+还	hái	1
+还有	hái yǒu	2
+函数	hán shù	0
+和	hé	5
+后	hòu	8
+后面	hòu miàn	1
+黑色	hēi sè	1
+黑色前进	hēi sè qián jìn	1
+黑暗	hēi àn	1
+忽略	hū lüè	1
+好	hǎo	4
+好的	hǎo de	1
+好在哪里	hǎo zài nǎ lǐ	1
+健	jiàn	1
+结论	jié lùn	1
+就	jiù	1
+解读	jiě dú	1
+解读需要用药	jiě dú xū yào yòng yào	1
+解读一下	jiě dú yí xià	1
+检查	jiǎn chá	2
+讲解	jiǎng jiě	1
+继续	jì xù	3
+继续吧	jì xù ba	1
+即	jí	1
+局部	jú bù	0
+局部规划	jú bù guī huà	1
+井喷	jǐng pēn	1
+看看	kàn kàn	4
+库	kù	1
+可以	kě yǐ	6
+可以用	kě yǐ yòng	2
+空间	kōng jiān	3
+了	le	9
+链接	liàn jiē	1
+量	liàng	1
+连续	lián xù	1
+类似	lèi sì	1
+类似的	lèi sì de	2
+雷蛇	léi shé	5
+雷云	léi yún	2
+历史	lì shǐ	2
+离散点	lí sàn diǎn	1
+里	lǐ	1
+理解	lǐ jiě	1
+吗	ma	7
+没啥用	méi shá yòng	1
+没有	méi yǒu	4
+模式	mó shì	1
+目录	mù lù	1
+呢	ne	1
+那	nà	2
+能	néng	1
+能不能	néng bù néng	1
+能在	néng zài	1
+逆合成	nì hé chéng	1
+哪	nǎ	1
+哪里	nǎ lǐ	1
+哪些	nǎ xiē	1
+你	nǐ	0
+你帮我	nǐ bāng wǒ	1
+拟合	nǐ hé	1
+你是	nǐ shì	0
+你是下载	nǐ shì xià zài	1
+你在说什么啊	nǐ zài shuō shén me a	1
+排版	pái bǎn	2
+配色	pèi sè	1
+配图	pèi tú	1
+配置	pèi zhì	2
+配置了	pèi zhì le	1
+皮肤	pí fū	1
+评测	píng cè	1
+评估	píng gū	1
+普通	pǔ tōng	1
+欠缺	qiàn quē	1
+前进	qián jìn	0
+前景	qián jǐng	0
+前面	qián miàn	1
+切换	qiē huàn	2
+全局	quán jú	1
+全面	quán miàn	1
+情况	qíng kuàng	1
+清零	qīng líng	1
+清理	qīng lǐ	3
+区别	qū bié	1
+驱动	qū dòng	3
+曲线	qū xiàn	1
+启动	qǐ dòng	1
+然后	rán hòu	1
+入法	rù fǎ	0
+如	rú	0
+如果	rú guǒ	1
+如何	rú hé	3
+如入法	rú rù fǎ	1
+栓绳	shuān shéng	1
+双拼	shuāng pīn	1
+水杉	shuǐ shān	7
+水杉输入法	shuǐ shān shū rù fǎ	2
+上	shàng	1
+上面	shàng miàn	1
+啥	shá	2
+设置	shè zhì	1
+什么	shén me	1
+是	shì	5
+是吧	shì ba	1
+是不是	shì bú shì	1
+释放	shì fàng	1
+适合	shì hé	2
+事件	shì jiàn	1
+是说	shì shuō	1
+时	shí	2
+时代	shí dài	1
+实现	shí xiàn	1
+删除	shān chú	1
+稍微	shāo wēi	1
+深色	shēn sè	0
+深色系统	shēn sè xì tǒng	1
+生效	shēng xiào	1
+输出	shū chū	1
+书籍	shū jí	2
+输入	shū rù	0
+输入封敖	shū rù fēng áo	1
+输入法	shū rù fǎ	6
+输入跟啊	shū rù gēn a	1
+使用	shǐ yòng	1
+鼠标	shǔ biāo	2
+算	suàn	1
+算法	suàn fǎ	1
+松开	sōng kāi	1
+添加	tiān jiā	1
+推进到	tuī jìn dào	1
+太大	tài dà	1
+图	tú	1
+通俗	tōng sú	1
+完成	wán chéng	2
+为	wèi	7
+为何	wèi hé	5
+畏惧心理	wèi jù xīn lǐ	1
+问个问题	wèn gè wèn tí	2
+问题	wèn tí	1
+无法	wú fǎ	4
+我	wǒ	3
+我恢复了	wǒ huī fù le	1
+我说说	wǒ shuō shuō	1
+我是说	wǒ shì shuō	1
+我想要	wǒ xiǎng yào	1
+下	xià	5
+下载	xià zài	0
+现象	xiàn xiàng	1
+现在	xiàn zài	4
+卸载	xiè zài	1
+相关	xiāng guān	2
+修复	xiū fù	1
+修改	xiū gǎi	1
+显示	xiǎn shì	1
+想要	xiǎng yào	1
+小鹤双拼	xiǎo hè shuāng pīn	1
+小鹤双拼输入法	xiǎo hè shuāng pīn shū rù fǎ	1
+系统	xì tǒng	0
+需要	xū yào	1
+源	yuán	1
+阅读	yuè dú	2
+阅读器	yuè dú qì	1
+样	yàng	1
+样本	yàng běn	1
+亿个	yì gè	1
+一些	yì xiē	1
+一章	yì zhāng	1
+硬盘	yìng pán	1
+映射成	yìng shè chéng	1
+一次性	yí cì xìng	2
+一个	yí gè	6
+一下	yí xià	4
+一下这个函数	yí xià zhè ge hán shù	1
+一样	yí yàng	1
+用	yòng	6
+用药	yòng yào	0
+又	yòu	1
+尤其	yóu qí	1
+预处理	yù chǔ lǐ	1
+运行	yùn xíng	1
+要求	yāo qiú	1
+一	yī	2
+因为	yīn wèi	1
+以此	yǐ cǐ	1
+已安装	yǐ ān zhuāng	1
+有	yǒu	1
+有误	yǒu wù	1
+有无	yǒu wú	0
+有无问题	yǒu wú wèn tí	1
+有用	yǒu yòng	2
+占用	zhàn yòng	4
+这个	zhè ge	0
+这么	zhè me	1
+直接	zhí jiē	4
+重点	zhòng diǎn	1
+住	zhù	1
+章	zhāng	2
+章节	zhāng jié	1
+整体	zhěng tǐ	1
+支持	zhī chí	1
+中	zhōng	3
+中间	zhōng jiān	1
+只用	zhǐ yòng	1
+最近	zuì jìn	0
+最近出现	zuì jìn chū xiàn	1
+做	zuò	1
+左右	zuǒ yòu	1
+在	zài	2
+在说什么	zài shuō shén me	0
+怎回事	zěn huí shì	1
+按键	àn jiàn	3
+按着	àn zhe	3
+按住	àn zhù	1
+唉	āi	5
+唉时代	āi shí dài	1
+安装	ān zhuāng	2
+安装后	ān zhuāng hòu	2

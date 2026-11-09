@@ -1,4 +1,5 @@
 # 默认英文；中文主词库启用用户词频和造词。
 patch:
+  switches/@3/reset: 0
   switches/@0/reset: 1
   translator/enable_user_dict: true

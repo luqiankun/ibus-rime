@@ -1,19 +1,12 @@
-# 云蓝 · IBus Rime 配置、词库和主题
+# IBus Rime · 雾凇、万象与春日绿
 
-这是当前 IBus 雾凇拼音环境的快照：全拼与小鹤双拼混输、每页 7 个候选、默认英文、行内显示编码、用户词频，以及云蓝浅色和暗色候选框主题。
+这是当前 IBus Rime 配置快照：默认雾凇小鹤双拼，另可在 F4 菜单切换雾凇全拼、万象小鹤双拼；默认英文、雾凇 Emoji 默认关闭、编码嵌入输入位置。雾凇每页 7 个候选，万象每页 6 个候选。
 
-**隐私：`userdict/rime_ice.txt` 含有输入历史形成的个人词汇和词频，本仓库为公开仓库，请留意这些内容可被任何人查看。** 备份是创建仓库时的快照，不会自动更新；之后学到的新词需要重新导出。
-
-## 内容
-
-- `rime/`：雾凇拼音源配置、中文和英文词库、Lua 脚本，以及本机的 `*.custom.yaml` 配置。上游快照版本：`99662ba01e3affa6a0f009174ca530b887bac3b6`。
-- `userdict/rime_ice.txt`：从用户词库导出的文本备份，用于在新设备导入。导入行为由目标设备的 librime 实现，不能保证保存数据库内部所有统计或历史状态。
-- `themes/`：不透明云蓝浅色和暗色皮肤。间距与圆角随字体大小缩放。
-- `install.sh`：安装 Rime 配置、词库与皮肤；`install-theme.sh` 可只安装皮肤。
+仓库包含两套词库和 Lua、用户词库文本快照，以及春日绿和云蓝深浅主题。**本仓库公开，`userdict/` 中导出的个人词汇可被任何人查看。**这些文件是备份时的快照，新学习的词不会自动上传。
 
 ## 安装
 
-在 Ubuntu / Debian 的 GNOME 桌面会话中克隆此仓库并运行：
+Ubuntu / Debian 的 GNOME 桌面会话中运行：
 
 ```bash
 git clone https://github.com/luqiankun/ibus-rime.git
@@ -21,22 +14,34 @@ cd ibus-rime
 ./install.sh
 ```
 
-默认使用暗色皮肤，也可选择：
+脚本会检测缺失的软件包，使用 `sudo apt-get` 安装 IBus、ibus-rime、Rime 命令行工具、Lua 和 octagram 插件、GNOME 工具及当前主题所需字体。首次安装需要网络和可能的 sudo 密码。
+
+万象模型约 399 MiB，脚本从官方 LTS 地址下载并用固定 SHA-256 校验，缓存于 `~/.cache/ibus-rime/`。LTS 文件如果被上游替换，校验会失败并停止安装；此时需更新仓库的校验值并验证兼容性，也可通过 `RIME_WANXIANG_MODEL=/path/to/wanxiang-lts-zh-hans.gram ./install.sh` 使用同一校验值的本地文件。安装前不会改动原 Rime 目录。
+
+默认安装春日绿皮肤；也可选云蓝：
 
 ```bash
-./install.sh dark   # 固定暗色
-./install.sh light  # 固定浅色
-./install.sh auto   # 由 Customize IBus 按夜灯状态切换
+./install.sh spring # 黑底、白字、绿色高亮（默认）
+./install.sh dark   # 云蓝暗色
+./install.sh light  # 云蓝浅色
+./install.sh auto   # 云蓝主题按 GNOME 夜灯切换
 ```
 
-脚本自动检查并通过 apt 安装缺失的 IBus、ibus-rime、librime 工具、Lua 插件、GNOME Shell、Python 3 和 curl；安装系统软件包时会调用 sudo，可能需要输入密码和连接网络。自动安装目前仅支持 Ubuntu / Debian 系。
+只安装皮肤可运行 `./install-theme.sh spring`。字体设置为当前的 `文鼎ＰＬ简报宋 Bold 18`，对应 Debian/Ubuntu 包 `fonts-arphic-gbsn00lp`。不同 GNOME 版本和应用的候选框可能有差异。
 
-安装会短暂重启 IBus，将原有 `~/.config/ibus/rime` 完整改名备份在同目录下的 `rime.backup.*`，再安装本仓库的快照。如果目标机器已有 `rime_ice.userdb`，脚本保留它并跳过导入，以免覆盖已有学习记录；没有时才导入仓库中的个人词频快照。其他已有的方案和配置保存在备份目录，不会自动合并到新配置。遇到问题时可退出 IBus，再从备份目录恢复。
+## 数据和恢复
 
-主题文件复制到 `${XDG_DATA_HOME:-~/.local/share}/ibus-themes/`。脚本会覆盖该目录下同名的两个主题文件；不会改写候选字体的扩展设置，也不携带字体文件。选择 `auto` 时跟随的是扩展的夜灯机制，并非系统深浅色外观。
+安装会短暂停止 IBus，把原有 `~/.config/ibus/rime` 整体改名备份为同目录下 `rime.backup.*`，然后安装本仓库快照。目标机器原有的 `rime_ice`、`wanxiang`、`en`、`sequence`、`stats` 用户数据库会保留；前三者没有已有数据库时才导入仓库里的文本快照。导出格式不保证包含用户数据库的全部内部统计状态。其他旧文件保存在备份中，不会自动合并。
 
-如果缺少 Customize IBus，脚本会自动从 [GNOME 扩展网站](https://extensions.gnome.org/extension/4112/customize-ibus/)下载适配当前 GNOME 版本的扩展。新安装扩展如未能立刻启用，请注销并重新登录，再运行脚本。不同 GNOME 版本与应用可能有不同的显示效果。
+重新部署或迁移时，日常用户库仍需定期单独备份。IBus 和 Fcitx5 使用各自的用户目录，词频不会自动互通。安装完成后在 GNOME 输入源中选择 Rime；首次安装 Customize IBus 扩展后可能需要注销重新登录。主题 `auto` 按夜灯状态而非系统深浅外观切换。
 
-## 许可与致谢
+## 内容
 
-仓库中雾凇拼音及主题以 GPL-3.0-or-later 发布，详见各目录中的许可文件。皮肤参考 [IBus Theme Hub](https://github.com/openSUSE/IBus-Theme-Hub)，适用于 [Customize IBus](https://github.com/openSUSE/Customize-IBus)。
+- `rime/`：雾凇和万象的输入方案、词库、OpenCC、Lua 与自定义配置。雾凇、小鹤和万象各自独立，万象语法模型通过安装脚本获取。
+- `userdict/`：雾凇、万象和英文用户词库的文本备份。
+- `themes/`：IBus 的春日绿与云蓝 CSS。
+- `install.sh` / `install-theme.sh` / `install-deps.sh`：完整安装、仅皮肤、依赖检查。
+
+雾凇拼音来自 [iDvel/rime-ice](https://github.com/iDvel/rime-ice)，许可证见 `rime/LICENSE`。万象方案与词库来自 [amzxyz/rime-wanxiang v18.1.10](https://github.com/amzxyz/rime-wanxiang/releases/tag/v18.1.10)，使用小鹤双拼、默认英文和 6 候选的自定义补丁；其上游许可证见 [WANXIANG-LICENSE](WANXIANG-LICENSE)。语法模型来自 [万象数据仓库 LTS](https://github.com/amzxyz/rime-wanxiang-data/releases/tag/LTS)，各数据组件适用上游声明。春日绿皮肤参考 [Candlelight](https://github.com/thep0y/fcitx5-themes-candlelight)，云蓝参考 [IBus Theme Hub](https://github.com/openSUSE/IBus-Theme-Hub)。
+
+万象基础词库以压缩分片存放在 `data/`；安装脚本会自动合并、解压并校验，安装后恢复为完整的 `dicts/jichu.dict.yaml`。

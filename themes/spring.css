@@ -1,0 +1,47 @@
+/* 春日绿：参考 Fcitx5 Candlelight spring 的黑底、白字与绿色选中项。 */
+.candidate-popup-boxpointer {
+  -arrow-background-color: #030303;
+  -arrow-border-color: #030303;
+  -arrow-border-width: 0;
+  -arrow-border-radius: 0;
+  -arrow-base: 0;
+  background: none;
+  border-image: none;
+}
+.candidate-popup-content {
+  color: #ffffff;
+  background-color: #030303;
+  border: 0;
+  border-radius: 0;
+  padding: 0.12em;
+}
+.candidate-popup-text {
+  color: #ffffff;
+  border-width: 0;
+  padding: 0.4em 0.65em;
+}
+.candidate-box {
+  color: #ffffff;
+  border-radius: 0;
+  padding: 0.45em 0.8em;
+}
+.candidate-box > .candidate-index {
+  color: #d5dfd0;
+  font-size: 0.8em;
+  min-width: 1em;
+  padding: 0 0.25em 0 0;
+  border-width: 0;
+}
+.candidate-box:selected {
+  color: #ffffff;
+  background-color: #407434;
+}
+.candidate-box:selected > .candidate-index { color: #ffffff; }
+.candidate-box:hover { color: #ffffff; background-color: #355f2b; }
+.candidate-page-button-box { spacing: 0.2em; border-color: #6c8068; }
+.vertical .candidate-page-button-box { margin-top: 0.2em; padding-top: 0.2em; border-top-width: 1px; }
+.horizontal .candidate-page-button-box { margin-left: 0.2em; padding-left: 0.2em; border-left-width: 1px; }
+.candidate-page-button { color: #ffffff; background-color: transparent; padding: 0.25em; }
+.candidate-page-button StIcon { icon-size: 1em; }
+.candidate-page-button:hover { background-color: #407434; }
+.candidate-page-button:insensitive { color: #8b9a88; }

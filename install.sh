@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
-usage() { printf '用法：./install.sh [dark|light|auto]\n'; }
-mode=${1:-dark}
-case "$mode" in dark|light|auto) ;; -h|--help) usage; exit 0 ;; *) usage >&2; exit 2 ;; esac
+usage() { printf '用法：./install.sh [spring|dark|light|auto]\n'; }
+mode=${1:-spring}
+case "$mode" in spring|dark|light|auto) ;; -h|--help) usage; exit 0 ;; *) usage >&2; exit 2 ;; esac
 [ "$#" -le 1 ] || { usage >&2; exit 2; }
 src=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
 "$src/install-deps.sh" all
@@ -33,6 +33,32 @@ cleanup() {
 }
 trap cleanup EXIT
 cp -a -- "$src/rime/." "$stage/"
+# 基础词库以压缩分片保存在仓库，部署前还原并校验原始内容。
+cat -- "$src"/data/wanxiang-jichu.yaml.gz.part{00,01,02,03} | gzip -dc > "$stage/dicts/jichu.dict.yaml"
+printf '%s  %s\n' '1e03f4c3aa634f9320d50bd660833d2d3a855793fcface30b1509d75409c52bc' "$stage/dicts/jichu.dict.yaml" | sha256sum -c --status || { printf '万象基础词库校验失败。\n' >&2; exit 1; }
+# 万象模型超过 GitHub 普通文件限制，通过官方 LTS 下载并校验固定版本。
+model_name=wanxiang-lts-zh-hans.gram
+model_sha=769854c83f6c914a05a1e1abb67c31c00f1ae622a41878e05957bcdee3dbda9a
+model_cache="${XDG_CACHE_HOME:-$HOME/.cache}/ibus-rime"
+model_source=${RIME_WANXIANG_MODEL:-$model_cache/$model_name}
+if [ ! -f "$model_source" ]; then
+  if [ -n "${RIME_WANXIANG_MODEL:-}" ]; then
+    printf '指定的万象模型不存在：%s\n' "$model_source" >&2; exit 1
+  fi
+  mkdir -p -- "$model_cache"
+  download_tmp=$(mktemp "$model_cache/.wanxiang-download.XXXXXXXX")
+  if ! curl -fL --retry 2 --connect-timeout 20 -o "$download_tmp" "https://github.com/amzxyz/rime-wanxiang-data/releases/download/LTS/$model_name"; then
+    printf '模型下载失败，临时文件保存在 %s。\n' "$download_tmp" >&2; exit 1
+  fi
+  if ! printf '%s  %s\n' "$model_sha" "$download_tmp" | sha256sum -c --status; then
+    printf '模型校验失败，临时文件保存在 %s。上游 LTS 可能已更新。\n' "$download_tmp" >&2; exit 1
+  fi
+  mv -- "$download_tmp" "$model_source"
+fi
+if ! printf '%s  %s\n' "$model_sha" "$model_source" | sha256sum -c --status; then
+  printf '模型校验失败：%s。请提供与仓库版本匹配的模型。\n' "$model_source" >&2; exit 1
+fi
+cp --reflink=auto -- "$model_source" "$stage/$model_name"
 # 一些 Rime 自带的忽略规则不影响目录复制，但不复制 Git 数据。
 rime_deployer --build "$stage" "$shared" "$stage/build"
 # rime_deployer --build 不部署前端的 ibus_rime.yaml；单独生成部署结果。
@@ -54,14 +80,20 @@ fi
 if [ -e "$target" ]; then
   backup="$parent/rime.backup.$(date +%Y%m%d-%H%M%S).$$"
   mv -- "$target" "$backup"
-  if [ -d "$backup/rime_ice.userdb" ]; then
-    cp -a -- "$backup/rime_ice.userdb" "$stage/"
-    printf '保留了目标机器已有的 rime_ice 用户词库；未导入仓库快照。\n'
+  for dict in rime_ice wanxiang en sequence stats; do
+    if [ -d "$backup/$dict.userdb" ]; then
+      cp -a -- "$backup/$dict.userdb" "$stage/"
+      printf '保留目标机器已有的 %s 用户数据库。\n' "$dict"
+    fi
+  done
+fi
+for dict in rime_ice wanxiang en; do
+  if [ ! -d "$stage/$dict.userdb" ] && [ -f "$src/userdict/$dict.txt" ]; then
+    (cd "$stage" && rime_dict_manager -i "$dict" "$src/userdict/$dict.txt")
   fi
-fi
-if [ ! -d "$stage/rime_ice.userdb" ]; then
-  (cd "$stage" && rime_dict_manager -i rime_ice "$src/userdict/rime_ice.txt")
-fi
+done
+# 在新环境默认进入雾凇小鹤双拼，保留全拼与万象作为可切换方案。
+(cd "$stage" && rime_deployer --set-active-schema double_pinyin_flypy)
 mv -- "$stage" "$target"
 installed=1
 [ -z "$backup" ] || printf '原 Rime 数据已备份：%s\n' "$backup"

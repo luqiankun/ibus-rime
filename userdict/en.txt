@@ -1,0 +1,10 @@
+# Rime user dictionary export
+#@/db_name	en
+#@/db_type	userdb
+#@/rime_version	1.16.1
+#@/tick	8
+#@/user_id	f43e72c6-5696-4919-b437-9e5caf9155b4
+iBus	IBus	2
+Linux	Linux	4
+fcitx	fcitx	1
+sudo	sudo	1

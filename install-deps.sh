@@ -12,9 +12,9 @@ if ! command -v dpkg-query >/dev/null || ! command -v apt-get >/dev/null; then
   exit 1
 fi
 # 雾凇使用 Lua 扩展；librime-bin 提供 rime_deployer 和 rime_dict_manager。
-packages=(gnome-shell python3 curl)
+packages=(gnome-shell python3 curl fonts-arphic-gbsn00lp)
 if [ "$mode" = all ]; then
-  packages+=(ibus ibus-rime librime-bin librime-data librime-plugin-lua)
+  packages+=(ibus ibus-rime librime-bin librime-data librime-plugin-lua librime-plugin-octagram)
 fi
 missing=()
 for package in "${packages[@]}"; do
